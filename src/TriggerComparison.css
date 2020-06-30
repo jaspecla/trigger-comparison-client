@@ -1,0 +1,12 @@
+.ok {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.message {
+  font-size: x-large;
+  margin-bottom: 5px;
+}
