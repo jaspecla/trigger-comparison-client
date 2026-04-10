@@ -6,7 +6,7 @@ function TriggerComparison() {
   const [messages, setMessages] = useState([]);
   const [isReady, setIsReady] = useState(false);
 
-  const signalRUrl = process.env.REACT_APP_SIGNALR_URL;
+  const signalRUrl = import.meta.env.VITE_SIGNALR_URL;
   let connection;
 
   if (!isReady) {

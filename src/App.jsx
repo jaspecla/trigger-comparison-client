@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import TriggerComparison from './TriggerComparison';
+import TriggerComparison from './TriggerComparison.jsx';
 
 function App() {
   return (
